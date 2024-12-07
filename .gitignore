@@ -1,0 +1,4 @@
+*.tfstate
+*.tfstate.*
+.terraform/
+examprep101/.terraform/*
