@@ -84,7 +84,7 @@ resource "aws_security_group" "dru_sg" {
   }
 }
 
-resource "aws_key_pair" "dru_auth" {
-  key_name = "devkey"
-  public_key = file("~/.ssh/testkeypair.pem")
-}
+# resource "aws_key_pair" "dru_auth" {
+#   key_name = "devkey"
+#   public_key = file("~/.ssh/testkeypair.pem")
+# }
